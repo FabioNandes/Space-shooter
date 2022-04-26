@@ -1,0 +1,68 @@
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  font-family:'Segoe UI', sans-serif;
+  background: linear-gradient(180deg, #363E4C 11.48%, #111B24 48.46%);
+}
+
+#main-play-area{
+  background-color: black;
+  background-image: url(images/space3.jpg);
+  height: 650px;
+  width: 1000px;
+}
+
+.game-instructions {
+  position: relative;
+  color: white;
+  left: 10rem;
+  top: 0px;
+  font-size: 30px;
+}
+
+.start-button {
+  position: relative;
+  color: white;
+  top: 5rem;
+  left: 22rem;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+
+.player-shooter{
+  position: relative;
+  height: 60px;
+  width: 70px;
+  left: 20px;
+  top: 0px;
+}
+
+.laser{
+  position: relative;
+  width: 40px;
+  height: 50px;
+}
+
+.alien {
+  height: 60px;
+  width: 70px;
+  position: relative;
+}
+
+.alien-transition {
+  opacity: 1;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.dead-alien {
+  height: 60px;
+  width: 70px;
+  position: relative;
+  opacity: 0;
+}
